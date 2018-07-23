@@ -44,7 +44,7 @@ switch (command) {
 
 
 function myTweets() {
-    var params = { screen_name: 'maxmaxermax', count: 20 };
+    var params = { screen_name: 'JoseCodesss', count: 20 };
     client.get('statuses/user_timeline', params, function (error, tweets, response) {
         if (error) {
             throw error
